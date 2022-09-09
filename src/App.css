@@ -1,0 +1,22 @@
+@import "~antd/dist/antd.css";
+
+.ant-select-multiple .ant-select-selection-item {
+  height: 27px;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: auto !important;
+    margin: "0 auto";
+    display: "flex";
+    flex-direction: "column";
+    background-color: "white";
+    padding: 20;
+    height: 90vh !important;
+    box-shadow: none !important;
+  }
+  body {
+    background-color: white !important;
+    font-size: 18px !important;
+  }
+}
